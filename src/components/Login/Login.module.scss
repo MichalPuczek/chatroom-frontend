@@ -1,0 +1,48 @@
+.settings {
+    display: flex;
+    position: fixed;
+    top: 2rem;
+    right: 0;
+    padding: 1rem;
+    align-items: center;
+
+    & p {
+        color: white;
+    }
+
+    &-button {
+        width: 35px;
+        height: 35px;
+        font-size: 3rem;
+        border-radius: 50%;
+        background-color: red;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    &-form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            border: none;
+            border-radius: 1.5rem;
+            padding: 1.2rem;
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            padding: 1.5rem;
+            border: none;
+            border-radius: 1rem;
+        }
+    }
+
+}

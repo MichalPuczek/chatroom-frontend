@@ -1,5 +1,43 @@
 # Getting Started with Create React App
 
+BUT :
+
+- react
+- redux
+- node-sass / scss / module / variables
+- prop types
+- - flex (flex grow 1)
+- box sizing border box
+- - input controle
+- onclick, onsubmit, onchange
+- proptypes
+- -animation css
+- connexion (aout de name a l'input)
+- interpreter une variable pour savoi quelle propriete donner [name]
+-   disabled={!user} pour disable un input si user n'est pas connecté
+-   overflow-y: auto;
+
+!!!    if (!message) {
+        return false;
+    }
+    return (
+        <div className={styles["error-message"]}>
+            {message}
+        </div>
+    );
+
+component error, comment faire pour conditioner l'affichage d'un composant 
+
+Highlights
+- websocket permet de lier plusieurs clients entre eux sans que chaque client n'ait besoin de faire une requete vers le serveur p. ex. en systeme de chat en temps reels c'est hyper pratique. Websocket fonctionne avec le systeme d'abonnement cad il y a un server et il y a plusieurs clients. chaque client va devoir s'enregistrer aupres du server qui est tout le temps au courant du nombre de clients. chaque client va s'abonner à un channel, va ecouter un channel de discussion et le server des qu'il y aura un message de posté sur tel ou tel channel va prevenir tout seul tous les clients qui s'y sont abonnées. le client doit donner une fonction qu'il va voulaoir executer des que un nouveau message arrive.
+
+1. fichier http://localhost:3001/socket.io/socket.io.js permet de communiquer avec le websocket , faut le charger comme script dans le html
+2. 
+
+
+Astuce
+html font size 62.5 %
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
